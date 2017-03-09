@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D645B1EB1E712458008AFCBF /* LeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645B1EA1E712458008AFCBF /* LeftView.swift */; };
+		D645B1ED1E71245F008AFCBF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645B1EC1E71245F008AFCBF /* MainView.swift */; };
+		D645B1EF1E7127AC008AFCBF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645B1EE1E7127AC008AFCBF /* UIView+Extension.swift */; };
+		D645B1F11E713142008AFCBF /* TmpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D645B1F01E713142008AFCBF /* TmpViewController.swift */; };
 		D647CF891E6EABF70028B255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647CF881E6EABF70028B255 /* AppDelegate.swift */; };
 		D647CF8B1E6EABF70028B255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647CF8A1E6EABF70028B255 /* ViewController.swift */; };
 		D647CF8E1E6EABF70028B255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D647CF8C1E6EABF70028B255 /* Main.storyboard */; };
 		D647CF901E6EABF70028B255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D647CF8F1E6EABF70028B255 /* Assets.xcassets */; };
 		D647CF931E6EABF70028B255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D647CF911E6EABF70028B255 /* LaunchScreen.storyboard */; };
+		D647CF9E1E6EACFC0028B255 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647CF9D1E6EACFC0028B255 /* RootTabBarController.swift */; };
+		D647CFA01E6EAD560028B255 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647CF9F1E6EAD560028B255 /* OneViewController.swift */; };
+		D647CFA21E6EAD5E0028B255 /* TowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647CFA11E6EAD5E0028B255 /* TowViewController.swift */; };
+		D647CFA41E6EAD650028B255 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647CFA31E6EAD650028B255 /* ThreeViewController.swift */; };
+		D647CFA61E6EAD730028B255 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D647CFA51E6EAD730028B255 /* FourViewController.swift */; };
+		D647CFB01E6EAD940028B255 /* homeA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D647CFA81E6EAD940028B255 /* homeA@2x.png */; };
+		D647CFB11E6EAD940028B255 /* homeL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D647CFA91E6EAD940028B255 /* homeL@2x.png */; };
+		D647CFB21E6EAD940028B255 /* messageA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D647CFAA1E6EAD940028B255 /* messageA@2x.png */; };
+		D647CFB31E6EAD940028B255 /* messageL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D647CFAB1E6EAD940028B255 /* messageL@2x.png */; };
+		D647CFB41E6EAD940028B255 /* reportA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D647CFAC1E6EAD940028B255 /* reportA@2x.png */; };
+		D647CFB51E6EAD940028B255 /* reportL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D647CFAD1E6EAD940028B255 /* reportL@2x.png */; };
+		D647CFB61E6EAD940028B255 /* shopA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D647CFAE1E6EAD940028B255 /* shopA@2x.png */; };
+		D647CFB71E6EAD940028B255 /* shopL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D647CFAF1E6EAD940028B255 /* shopL@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D645B1EA1E712458008AFCBF /* LeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftView.swift; sourceTree = "<group>"; };
+		D645B1EC1E71245F008AFCBF /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D645B1EE1E7127AC008AFCBF /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D645B1F01E713142008AFCBF /* TmpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TmpViewController.swift; sourceTree = "<group>"; };
 		D647CF851E6EABF70028B255 /* LeftNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D647CF881E6EABF70028B255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D647CF8A1E6EABF70028B255 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,19 @@
 		D647CF8F1E6EABF70028B255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D647CF921E6EABF70028B255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D647CF941E6EABF70028B255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D647CF9D1E6EACFC0028B255 /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		D647CF9F1E6EAD560028B255 /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		D647CFA11E6EAD5E0028B255 /* TowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TowViewController.swift; sourceTree = "<group>"; };
+		D647CFA31E6EAD650028B255 /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		D647CFA51E6EAD730028B255 /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		D647CFA81E6EAD940028B255 /* homeA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeA@2x.png"; sourceTree = "<group>"; };
+		D647CFA91E6EAD940028B255 /* homeL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homeL@2x.png"; sourceTree = "<group>"; };
+		D647CFAA1E6EAD940028B255 /* messageA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messageA@2x.png"; sourceTree = "<group>"; };
+		D647CFAB1E6EAD940028B255 /* messageL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "messageL@2x.png"; sourceTree = "<group>"; };
+		D647CFAC1E6EAD940028B255 /* reportA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reportA@2x.png"; sourceTree = "<group>"; };
+		D647CFAD1E6EAD940028B255 /* reportL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reportL@2x.png"; sourceTree = "<group>"; };
+		D647CFAE1E6EAD940028B255 /* shopA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopA@2x.png"; sourceTree = "<group>"; };
+		D647CFAF1E6EAD940028B255 /* shopL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopL@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,9 +69,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D645B1E91E712432008AFCBF /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				D645B1EA1E712458008AFCBF /* LeftView.swift */,
+				D645B1EC1E71245F008AFCBF /* MainView.swift */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		D645B1F21E71349C008AFCBF /* other */ = {
+			isa = PBXGroup;
+			children = (
+				D647CFA11E6EAD5E0028B255 /* TowViewController.swift */,
+				D647CFA31E6EAD650028B255 /* ThreeViewController.swift */,
+				D647CFA51E6EAD730028B255 /* FourViewController.swift */,
+				D647CF8A1E6EABF70028B255 /* ViewController.swift */,
+				D645B1F01E713142008AFCBF /* TmpViewController.swift */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
 		D647CF7C1E6EABF70028B255 = {
 			isa = PBXGroup;
 			children = (
+				D647CFA71E6EAD8B0028B255 /* imgs */,
 				D647CF871E6EABF70028B255 /* LeftNav */,
 				D647CF861E6EABF70028B255 /* Products */,
 			);
@@ -54,14 +110,33 @@
 		D647CF871E6EABF70028B255 /* LeftNav */ = {
 			isa = PBXGroup;
 			children = (
+				D645B1EE1E7127AC008AFCBF /* UIView+Extension.swift */,
+				D645B1E91E712432008AFCBF /* MainView */,
 				D647CF881E6EABF70028B255 /* AppDelegate.swift */,
-				D647CF8A1E6EABF70028B255 /* ViewController.swift */,
+				D647CF9D1E6EACFC0028B255 /* RootTabBarController.swift */,
+				D647CF9F1E6EAD560028B255 /* OneViewController.swift */,
+				D645B1F21E71349C008AFCBF /* other */,
 				D647CF8C1E6EABF70028B255 /* Main.storyboard */,
 				D647CF8F1E6EABF70028B255 /* Assets.xcassets */,
 				D647CF911E6EABF70028B255 /* LaunchScreen.storyboard */,
 				D647CF941E6EABF70028B255 /* Info.plist */,
 			);
 			path = LeftNav;
+			sourceTree = "<group>";
+		};
+		D647CFA71E6EAD8B0028B255 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				D647CFA81E6EAD940028B255 /* homeA@2x.png */,
+				D647CFA91E6EAD940028B255 /* homeL@2x.png */,
+				D647CFAA1E6EAD940028B255 /* messageA@2x.png */,
+				D647CFAB1E6EAD940028B255 /* messageL@2x.png */,
+				D647CFAC1E6EAD940028B255 /* reportA@2x.png */,
+				D647CFAD1E6EAD940028B255 /* reportL@2x.png */,
+				D647CFAE1E6EAD940028B255 /* shopA@2x.png */,
+				D647CFAF1E6EAD940028B255 /* shopL@2x.png */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +199,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D647CFB61E6EAD940028B255 /* shopA@2x.png in Resources */,
+				D647CFB41E6EAD940028B255 /* reportA@2x.png in Resources */,
 				D647CF931E6EABF70028B255 /* LaunchScreen.storyboard in Resources */,
 				D647CF901E6EABF70028B255 /* Assets.xcassets in Resources */,
+				D647CFB71E6EAD940028B255 /* shopL@2x.png in Resources */,
+				D647CFB31E6EAD940028B255 /* messageL@2x.png in Resources */,
+				D647CFB51E6EAD940028B255 /* reportL@2x.png in Resources */,
 				D647CF8E1E6EABF70028B255 /* Main.storyboard in Resources */,
+				D647CFB11E6EAD940028B255 /* homeL@2x.png in Resources */,
+				D647CFB21E6EAD940028B255 /* messageA@2x.png in Resources */,
+				D647CFB01E6EAD940028B255 /* homeA@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +220,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D645B1EF1E7127AC008AFCBF /* UIView+Extension.swift in Sources */,
+				D647CFA41E6EAD650028B255 /* ThreeViewController.swift in Sources */,
 				D647CF8B1E6EABF70028B255 /* ViewController.swift in Sources */,
+				D647CFA21E6EAD5E0028B255 /* TowViewController.swift in Sources */,
+				D645B1F11E713142008AFCBF /* TmpViewController.swift in Sources */,
+				D645B1ED1E71245F008AFCBF /* MainView.swift in Sources */,
+				D647CFA01E6EAD560028B255 /* OneViewController.swift in Sources */,
+				D647CF9E1E6EACFC0028B255 /* RootTabBarController.swift in Sources */,
+				D645B1EB1E712458008AFCBF /* LeftView.swift in Sources */,
+				D647CFA61E6EAD730028B255 /* FourViewController.swift in Sources */,
 				D647CF891E6EABF70028B255 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +353,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = LeftNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.LeftNav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = LeftNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.LeftNav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +394,7 @@
 				D647CF991E6EABF70028B255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

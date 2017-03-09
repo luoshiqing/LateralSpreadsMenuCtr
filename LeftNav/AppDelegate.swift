@@ -13,9 +13,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var rootVC: RootTabBarController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+   
+        UINavigationBar.appearance().isTranslucent = false
+        
+        self.rootVC = RootTabBarController()
+        
+        self.window?.rootViewController = self.rootVC
+        
+        self.window?.backgroundColor = UIColor.purple
+        
+        
         return true
     }
 
